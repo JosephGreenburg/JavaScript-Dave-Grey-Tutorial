@@ -1,9 +1,9 @@
 //Numbers
-const myNumber = 42;
+// const myNumber = 42;
 //A number with a decimal is a float which references the "floating point"
-const myFloat = 42.0151
+// const myFloat = 42.0151
 //string number
-const myString = "42.123abc";
+// const myString = "42.123abc";
 // console.log();
 // console.log(Number(false));
 
@@ -21,4 +21,9 @@ const myString = "42.123abc";
 //The Number.parseInt() method parses a string argument and returns a integer.
 
 
-console.log(Number.parseFloat("4.237abc").toFixed(2).toString());
+// console.log(Number.parseFloat("4.237abc").toFixed(2).toString());
+
+// Number.isNaN vs .isNaN
+console.log("test");
+console.log(Number.isNaN("Joe"));//false
+console.log(isNaN("Joe"));//false
