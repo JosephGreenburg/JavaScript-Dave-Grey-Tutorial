@@ -3,14 +3,20 @@
 function displayRandomLetter() {
     // Get input value of the input field.
     let myName = document.getElementById("nameEntryInput").value;
+
     // Remove any spaces from the text entered using a simple regex.
     let myNameWithoutSpaces = myName.replace(/\s/g, '');
+
     // Generate a random letter using Math.random to select a random index from the entered text.
-    // let randomNameLetter = myNameWithoutSpaces[Math.floor(Math.random() * myNameWithoutSpaces.length)];
+
+    let randomNameLetter = myNameWithoutSpaces[Math.floor(Math.random() * myNameWithoutSpaces.length)];
+    
     //*** Daves example after I completed this project. I did not know about charAt() until I saw this video.
     //*** let randomNameLetter = myNameWithoutSpaces.charAt(Math.floor(Math.random() * myNameWithoutSpaces.length));
+    
     //Select the <p> element to use to add the letter to.
     let pLetter = document.getElementById("randomLetter");
+    
     // Add randomNameLetter value to the <p> element. 
     pLetter.textContent = "Random Letter from the name: " + randomNameLetter;
 };
