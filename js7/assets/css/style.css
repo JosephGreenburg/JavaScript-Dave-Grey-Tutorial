@@ -1,0 +1,22 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-size: 16px;
+    /* background-color: #000;
+    color: #fff; */
+}
+main {
+    height: 100vh;
+    width: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    color: white;
+}
