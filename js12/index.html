@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS10</title>
+</head>
+<body>
+    <h1 id="folderTitle">folderTitle</h1>
+    <script>
+    //Get the pathname of the current URL
+    const pathname = window.location.pathname;
+    //Split the pathname into an array of segments
+    const segments = pathname.split('/');
+    //Get the last segment which represents the folder title
+    const folderTitle = segments[segments.length - 2]; // -1 represents the filename
+    //Update the h1 tag with the folder title
+    document.getElementById('folderTitle').textContent = folderTitle;
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
