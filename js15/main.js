@@ -1,7 +1,20 @@
 /**
  * Arrays and Data Structures
  * 
- * 
+ * Methods used in this exercise:
+ * - array declaraction: variable = [];
+ * - push()
+ * - pop()
+ * - shift()
+ * - unshift()
+ * - delete array[x] or array
+ * - splice()
+ * - slice()
+ * - split()
+ * - reverse()
+ * - concat()
+ * - join()
+ * - spread newArrayFromAB = [...myArrayA, ...myArrayB];
  */
 
 
