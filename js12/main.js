@@ -1,20 +1,34 @@
-//Loops and Iteration
+/**
+ * Loops and Iteration
+ * 
+ * - while()
+ * - for()
+ * - do()
+ * - while(true)
+ */
 
-let myNumber = 50;
-//While
 
+/**
+ * While
+ */
+
+// let myNumber = 50;
 // while(myNumber <= 50) {
 //     console.log(myNumber);
 //     myNumber++;
 // }
 
-//Do
+/**
+ * Do
+ */
 
 // do {
 //     console.log(myNumber);
 // } while(myNumber < 50);
 
-//For
+/**
+ * For
+ */
 
 // for(let i = 0; i <= 10; i++) {
 //     console.log(i);
@@ -27,7 +41,10 @@ let myNumber = 50;
 // }
 
 
-//While True
+/**
+ * While True
+ */
+
 let firstName = "Joseph";
 let counter = 0;
 let myLetter;
