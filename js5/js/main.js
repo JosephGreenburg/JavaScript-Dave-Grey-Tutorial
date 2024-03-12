@@ -1,4 +1,13 @@
-//Math Methods and Properties
+/**
+ * Math Methods and Properties
+ * - Math.PI
+ * - Math.trunc()
+ * - Math.floor()
+ * - Math.round()
+ * - Main.min(x, y, z)
+ * - Math.max(x, y, z);
+ * - Math.random()
+ */
 
 //Math.PI, 
 console.log(Math.PI);
